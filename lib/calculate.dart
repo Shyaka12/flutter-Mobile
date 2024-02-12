@@ -251,6 +251,6 @@ class CalculatorScreenstate extends State<CalculatorScreen> {
             Btn.calculate,
           ].contains(value)
             ? const Color.fromARGB(255, 21, 0, 255)
-            : Colors.white10;
+            : Color.fromARGB(26, 64, 107, 250);
   }
 }
