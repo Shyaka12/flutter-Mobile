@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:simple/calculate.dart';
+import 'package:simple/home.dart';
 
 class NarBar extends StatelessWidget {
   @override
@@ -24,7 +26,10 @@ class NarBar extends StatelessWidget {
             leading: Icon(Icons.home),
             title: Text('Home'),
             onTap: () {
-              // Navigate to home screen
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HomeScreen()),
+              );
             },
           ),
           ListTile(
@@ -32,6 +37,10 @@ class NarBar extends StatelessWidget {
             title: Text('Calculater'),
             onTap: () {
               // Navigate to search screen
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => CalculatorScreen()),
+              );
             },
           ),
           ListTile(
@@ -39,6 +48,10 @@ class NarBar extends StatelessWidget {
             title: Text('About'),
             onTap: () {
               // Navigate to profile screen
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HomeScreen()),
+              );
             },
           ),
           ListTile(
