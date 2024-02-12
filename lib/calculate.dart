@@ -241,7 +241,7 @@ class CalculatorScreenstate extends State<CalculatorScreen> {
   // ########
   Color getBtnColor(value) {
     return [Btn.del, Btn.clr].contains(value)
-        ? const Color.fromARGB(255, 123, 255, 0)
+        ? Color.fromARGB(255, 21, 0, 255)
         : [
             Btn.per,
             Btn.multiply,
@@ -250,7 +250,7 @@ class CalculatorScreenstate extends State<CalculatorScreen> {
             Btn.divide,
             Btn.calculate,
           ].contains(value)
-            ? const Color.fromARGB(255, 0, 229, 255)
+            ? const Color.fromARGB(255, 21, 0, 255)
             : Colors.white10;
   }
 }
