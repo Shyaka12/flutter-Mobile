@@ -75,7 +75,7 @@ class ScreenOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Screen One'),
+      child: Text('Welcome to Mobile Application  '),
     );
   }
 }
@@ -103,7 +103,7 @@ class ScreenThree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Screen Three'),
+      child: Text('About Me '),
     );
   }
 }
