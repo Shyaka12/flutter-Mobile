@@ -48,10 +48,10 @@ class NarBar extends StatelessWidget {
             title: Text('About'),
             onTap: () {
               // Navigate to profile screen
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HomeScreen()),
-              );
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(builder: (context) => HomeScreen()),
+              // );
             },
           ),
           ListTile(
